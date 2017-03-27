@@ -5,6 +5,8 @@ FROM node:7-slim
 ENV HOME=/home/shared
 RUN mkdir -p $HOME
 RUN chmod -R 777 $HOME
+RUN mkdir -p /home/shared/.cache/yarn/
+RUN chmod -R 777 /home/shared/.cache/yarn/
 
 # By default, run yarn
 ENTRYPOINT ["yarn"]
