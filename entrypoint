@@ -1,0 +1,13 @@
+#! /usr/bin/env sh
+
+set -euo pipefail
+
+# Update gems, if anything's changed
+if [ -f "bower.json" ]; then
+    echo "Updating bower dependencies..." >> /dev/stderr
+    bower install  # Install new dependencies
+else
+    echo "bower.json not found - not installing bower dependencies" >> /dev/stderr
+fi
+
+yarn $@
