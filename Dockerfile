@@ -8,6 +8,7 @@ RUN apk add --no-cache git
 RUN npm install -g bower@1.8.0
 
 # Create a shared home directory - this helps anonymous users have a home
+ENV HOME=/home/shared
 RUN mkdir -p $HOME
 RUN mkdir -p $HOME/.cache/yarn/
 RUN mkdir -p $HOME/.cache/bower/
