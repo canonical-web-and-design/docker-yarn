@@ -1,3 +1,7 @@
+**Deprecated**: This project is not being actively maintained. See [docker-node]([DEPRECATED] Not being actively maintained - see canonicalwebteam/node instead) instead.
+
+---
+
 A light-weight docker image for running Yarn (https://yarnpkg.com/).
 
 It will also attempt to install bower dependencies if it finds a `bower.json`.
