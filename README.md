@@ -1,4 +1,4 @@
-**Deprecated**: This project is not being actively maintained. See [docker-node]([DEPRECATED] Not being actively maintained - see canonicalwebteam/node instead) instead.
+**Deprecated**: This project is not being actively maintained. See [docker-node](https://github.com/canonical-webteam/docker-node) instead.
 
 ---
 
